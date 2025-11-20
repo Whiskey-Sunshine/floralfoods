@@ -1,0 +1,288 @@
+[    
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["alliumsativum","alliumsativum-pickled","ipomoeabatatas-pickled","ipomoeabatatas","zeamays","heartofpalm"],
+        "file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "alliumsativum": {"base": "item/food/vegetable/{state}/chopped/cabbage"},
+            "alliumsativum-pickled": {"base": "item/food/vegetable/{state}/chopped/cabbage"},
+            "ipomoeabatatas": {"base": "item/food/vegetable/{state}/chopped/cabbage"},
+            "ipomoeabatatas-pickled": {"base": "item/food/vegetable/{state}/chopped/cabbage"},
+            "zeamays": {"base": "item/food/vegetable/{state}/chopped/cabbage"},
+            "heartofpalm": {"base": "item/food/vegetable/{state}/chopped/cabbage"}
+        },
+        "file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)-partbaked": { "saturation": 90, "foodcategory": "Vegetable" },
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)-perfect": { "saturation": 120, "foodcategory": "Vegetable" },
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)-charred": { "saturation": 100, "foodcategory": "Vegetable" },
+   			"*-zeamays-partbaked": { "saturation": 65, "foodcategory": "Grain" },
+            "*-zeamays-perfect": { "saturation": 80, "foodcategory": "Grain" },
+            "*-zeamays-charred": { "saturation": 70, "foodcategory": "Grain" }
+		},
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/nutritionPropsByType/*-partbaked",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*-partbaked",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/nutritionPropsByType/*-perfect",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*-perfect",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/nutritionPropsByType/*-charred",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*-charred",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-alliumsativum-(partbaked|perfect)",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-alliumsativum-pickled-(partbaked|perfect)",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-ipomoeabatatas-(partbaked|perfect)",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-ipomoeabatatas-pickled-(partbaked|perfect)",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-zeamays-(partbaked|perfect)",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-heartofpalm-(partbaked|perfect)",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 288 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-alliumsativum-charred",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 40 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-alliumsativum-pickled-charred",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-ipomoeabatatas-charred",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 40 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-ipomoeabatatas-pickled-charred",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-zeamays-charred",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 40 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-heartofpalm-charred",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1008 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/transitionablePropsByType/@*-(partbaked|perfect)",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/transitionablePropsByType/@*-(partbaked|perfect)",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/transitionablePropsByType/*-charred",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/transitionablePropsByType/*-charred",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    }
+]

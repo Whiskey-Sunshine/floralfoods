@@ -1,0 +1,14 @@
+{
+  "Type": "content",
+  "ModID": "expandedfloralfoodzones",
+  "Name": "Expanded Foods of the Floral Zones",
+  "Description": "A bridging companion mod to integrate floral zones crops and foraging into expanded foods meals.",
+  "Version": "0.0.1",
+  "NetworkVersion": null,
+  "Website": "",
+  "Authors": ["Whiskey Sunshine"],
+  "Contributors": [""],
+  "Side": "Universal",
+  "RequiredOnServer": true,
+  "Dependencies": {"expandedfoods": "2.0.0-dev.4"}
+}

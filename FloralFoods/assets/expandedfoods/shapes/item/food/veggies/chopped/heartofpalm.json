@@ -1,0 +1,144 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"curdledmilk": "game:block/food/dairy/curdledmilk"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Core",
+					"from": [ -6.0, 0.0, -1.0 ],
+					"to": [ 6.0, 2.0, 1.0 ],
+					"rotationOrigin": [ -6.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+						"east": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+						"west": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
+						"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 12.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Ltop",
+							"from": [ 0.05, 1.4, -0.01 ],
+							"to": [ 2.05, 2.0, 2.01 ],
+							"rotationOrigin": [ 2.15, 2.0, 0.0 ],
+							"rotationZ": -12.0,
+							"faces": {
+								"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"west": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Rtop",
+							"from": [ 9.95, 1.4, -0.01 ],
+							"to": [ 11.95, 2.0, 2.01 ],
+							"rotationOrigin": [ 10.05, 2.0, 0.0 ],
+							"rotationZ": 12.0,
+							"faces": {
+								"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"east": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "Lnorth",
+							"from": [ 0.1, 0.0, 0.0 ],
+							"to": [ 2.1, 2.01, 0.5 ],
+							"rotationOrigin": [ 2.1, 0.0, 0.0 ],
+							"rotationY": -12.0,
+							"faces": {
+								"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"west": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] }
+							}
+						},
+						{
+							"name": "Rnorth",
+							"from": [ 9.9, 0.0, 0.0 ],
+							"to": [ 11.9, 2.01, 0.5 ],
+							"rotationOrigin": [ 9.9, 0.0, 0.0 ],
+							"rotationY": 12.0,
+							"faces": {
+								"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"east": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] }
+							}
+						},
+						{
+							"name": "Lsouth",
+							"from": [ 0.1, 0.0, 1.5 ],
+							"to": [ 2.1, 2.01, 2.0 ],
+							"rotationOrigin": [ 2.1, 0.0, 2.0 ],
+							"rotationY": 12.0,
+							"faces": {
+								"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"west": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] }
+							}
+						},
+						{
+							"name": "Rsouth",
+							"from": [ 9.9, 0.0, 1.5 ],
+							"to": [ 11.9, 2.01, 2.0 ],
+							"rotationOrigin": [ 9.9, 0.0, 2.0 ],
+							"rotationY": -12.0,
+							"faces": {
+								"east": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"up": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] }
+							}
+						},
+						{
+							"name": "Lbot",
+							"from": [ 0.05, 0.0, -0.01 ],
+							"to": [ 2.05, 0.6, 2.01 ],
+							"rotationOrigin": [ 2.05, 0.0, 0.0 ],
+							"rotationZ": 12.0,
+							"faces": {
+								"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"west": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "Rbot",
+							"from": [ 9.95, 0.0, -0.01 ],
+							"to": [ 11.95, 0.6, 2.01 ],
+							"rotationOrigin": [ 9.95, 0.0, 0.0 ],
+							"rotationZ": -12.0,
+							"faces": {
+								"north": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"east": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"down": { "texture": "#curdledmilk", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

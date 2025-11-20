@@ -1,0 +1,340 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-alliumsativum",
+        "value": [
+            {
+                "displaycaseable": true,
+			    "shelvable": true,
+			    "nutritionPropsWhenInMeal": { "satiety": 160, "health": 1, "foodcategory": "Vegetable" },
+			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			    "bakingProperties": {
+				    "temp": 100,
+				    "levelFrom": 0.0,
+				    "levelTo": 0.25,
+				    "startScaleY": 1.0,
+				    "endScaleY": 1.0,
+				    "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			    },
+			    "onDisplayTransform": { 
+				    "translation": { "x": 0, "y": -0.125, "z": 0 },
+				    "scale": 1.0 
+			    },
+                "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-alliumsativum", "partType": "Filling" }
+            }
+        ],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-ipomoeabatatas",
+        "value": [
+            {
+                "displaycaseable": true,
+			    "shelvable": true,
+			    "nutritionPropsWhenInMeal": { "satiety": 200, "foodcategory": "Vegetable" },
+			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			    "bakingProperties": {
+				    "temp": 100,
+				    "levelFrom": 0.0,
+				    "levelTo": 0.25,
+				    "startScaleY": 1.0,
+				    "endScaleY": 1.0,
+				    "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			    },
+			    "onDisplayTransform": { 
+				    "translation": { "x": 0, "y": -0.125, "z": 0 },
+				    "scale": 1.0 
+			    },
+                "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-ipomoeabatatas", "partType": "Filling" }
+            }
+        ],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-zeamays",
+        "value": [
+            {
+                "displaycaseable": true,
+			    "shelvable": true,
+			    "nutritionPropsWhenInMeal": { "satiety": 240, "foodcategory": "Grain" },
+			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			    "bakingProperties": {
+				    "temp": 100,
+				    "levelFrom": 0.0,
+				    "levelTo": 0.25,
+				    "startScaleY": 1.0,
+				    "endScaleY": 1.0,
+				    "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			    },
+			    "onDisplayTransform": { 
+				    "translation": { "x": 0, "y": -0.125, "z": 0 },
+				    "scale": 1.0 
+			    }
+            }
+        ],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-heartofpalm",
+        "value": [
+            {
+                "displaycaseable": true,
+			    "shelvable": true,
+			    "nutritionPropsWhenInMeal": { "satiety": 250, "foodcategory": "Vegetable" },
+			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			    "bakingProperties": {
+				    "temp": 100,
+				    "levelFrom": 0.0,
+				    "levelTo": 0.25,
+				    "startScaleY": 1.0,
+				    "endScaleY": 1.0,
+				    "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			    },
+			    "onDisplayTransform": { 
+				    "translation": { "x": 0, "y": -0.125, "z": 0 },
+				    "scale": 1.0 
+			    },
+                "inPieProperties": { "texture": "game:block/liquid/milkportion", "partType": "Filling" }
+            }
+        ],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-alliumsativum-pickled",
+        "value": [
+            {
+                "displaycaseable": true,
+			    "shelvable": true,
+			    "nutritionPropsWhenInMeal": { "satiety": 80, "health": 1, "foodcategory": "Vegetable" },
+			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			    "bakingProperties": {
+				    "temp": 100,
+				    "levelFrom": 0.0,
+				    "levelTo": 0.25,
+				    "startScaleY": 1.0,
+				    "endScaleY": 1.0,
+				    "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			    },
+			    "onDisplayTransform": { 
+				    "translation": { "x": 0, "y": -0.125, "z": 0 },
+				    "scale": 1.0 
+			    },
+                "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-alliumsativum", "partType": "Filling" }
+            }
+        ],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-ipomoeabatatas-pickled",
+        "value": [
+            {
+                "displaycaseable": true,
+			    "shelvable": true,
+			    "nutritionPropsWhenInMeal": { "satiety": 80, "foodcategory": "Vegetable" },
+			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			    "bakingProperties": {
+				    "temp": 100,
+				    "levelFrom": 0.0,
+				    "levelTo": 0.25,
+				    "startScaleY": 1.0,
+				    "endScaleY": 1.0,
+				    "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			    },
+			    "onDisplayTransform": { 
+				    "translation": { "x": 0, "y": -0.125, "z": 0 },
+				    "scale": 1.0 
+			    },
+                "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-ipomoeabatatas", "partType": "Filling" }
+            }
+        ],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/attributesByType/*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/attributesByType/*",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["alliumsativum","alliumsativum-pickled","ipomoeabatatas-pickled","ipomoeabatatas","zeamays","heartofpalm"],
+        "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)": { "satiety": 80, "foodcategory": "Vegetable" },
+			"*-zeamays": { "satiety": 60, "foodcategory": "Grain" }
+		},
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/nutritionPropsByType",
+        "value": {
+
+		},
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+        "dependsOn": [{ "modid": "expandedfoods"}],
+        "side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/nutritionPropsByType/*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/grindingPropsByType",
+        "value": {
+            "*-zeamays": { "groundStack": { "type": "item", "code": "floralzonescosmopolitanregion:flour-zeamays" }}
+        },
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-alliumsativum",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-ipomoeabatatas",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-zeamays",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 288 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-heartofpalm",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-alliumsativum-pickled",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/*-ipomoeabatatas-pickled",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"frompath": "/transitionablePropsByType/*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/transitionablePropsByType/*",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+    }
+]

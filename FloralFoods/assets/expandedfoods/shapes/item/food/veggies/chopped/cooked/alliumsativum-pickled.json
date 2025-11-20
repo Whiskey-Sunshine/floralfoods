@@ -1,0 +1,58 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 8,
+	"textureSizes": {
+		"bulb": [12,8],
+		"e7": [8,16],
+		"s7": [8,16]
+	},
+	"textures": {
+		"bulb": "block/plant/crop/alliumsativum/bulb"
+	},
+	"elements": [
+		{
+			"name": "garlic",
+			"from": [ 6.75, 0.5, 6.75 ],
+			"to": [ 9.25, 2.0, 9.25 ],
+			"rotationOrigin": [ 7.8, 0.0, 8.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#bulb", "uv": [ 3.0, 0.5, 5.5, 2.0 ] },
+				"east": { "texture": "#bulb", "uv": [ 1.0, 3.0, 3.5, 4.5 ] },
+				"south": { "texture": "#bulb", "uv": [ 1.0, 2.5, 3.5, 4.0 ] },
+				"west": { "texture": "#bulb", "uv": [ 3.0, 0.0, 5.5, 1.5 ] },
+				"up": { "texture": "#bulb", "uv": [ 7.5, 2.5, 10.0, 5.0 ] },
+				"down": { "texture": "#bulb", "uv": [ 2.5, 5.5, 5.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "garlic top",
+					"from": [ 0.5, 1.5, 0.5 ],
+					"to": [ 2.0, 2.0, 2.0 ],
+					"faces": {
+						"north": { "texture": "#bulb", "uv": [ 8.0, 3.5, 9.5, 4.0 ] },
+						"east": { "texture": "#bulb", "uv": [ 8.5, 4.0, 10.0, 4.5 ] },
+						"south": { "texture": "#bulb", "uv": [ 8.5, 3.5, 10.0, 4.0 ] },
+						"west": { "texture": "#bulb", "uv": [ 8.0, 3.0, 9.5, 3.5 ] },
+						"up": { "texture": "#bulb", "uv": [ 9.0, 3.5, 10.5, 5.0 ] }
+					}
+				},
+				{
+					"name": "garlic bottom",
+					"from": [ 0.5, -0.5, 0.5 ],
+					"to": [ 2.0, 0.0, 2.0 ],
+					"faces": {
+						"north": { "texture": "#bulb", "uv": [ 2.5, 6.5, 4.0, 7.0 ] },
+						"east": { "texture": "#bulb", "uv": [ 2.5, 6.0, 4.0, 6.5 ] },
+						"south": { "texture": "#bulb", "uv": [ 3.5, 6.5, 5.0, 7.0 ] },
+						"west": { "texture": "#bulb", "uv": [ 3.0, 6.5, 4.5, 7.0 ] },
+						"down": { "texture": "#bulb", "uv": [ 2.0, 6.5, 3.5, 8.0 ] }
+					}
+				}
+			]
+		}
+	]}
