@@ -1,0 +1,29 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/juiceablePropertiesByType/@*-(alliumsativum|ipomoeabatatas)",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:vegetablejuiceportion-{fruit}",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+    "file": "game:itemtypes/resource/pressedmash.json"    
+  },
+  {
+    "op": "addeach",
+    "side": "server",
+    "path": "/variantgroups/0/states/-",
+    "value": ["alliumsativum", "ipomoeabatatas"],
+    "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+    "file": "game:itemtypes/resource/pressedmash.json"
+  }
+]

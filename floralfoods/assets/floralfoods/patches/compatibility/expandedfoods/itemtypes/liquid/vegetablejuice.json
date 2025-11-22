@@ -1,0 +1,10 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["alliumsativum","ipomoeabatatas"],
+        "file": "expandedfoods:itemtypes/liquid/vegetablejuice.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    }
+]
