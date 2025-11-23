@@ -2,8 +2,7 @@
     {
         "op": "addmerge",
         "path": "/attributesByType/*-alliumsativum",
-        "value": [
-            {
+        "value": {
                 "displaycaseable": true,
 			    "shelvable": true,
 			    "nutritionPropsWhenInMeal": { "satiety": 160, "health": 1, "foodcategory": "Vegetable" },
@@ -21,8 +20,7 @@
 				    "scale": 1.0 
 			    },
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-alliumsativum", "partType": "Filling" }
-            }
-        ],
+            },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
         "dependsOn": [{ "modid": "expandedfoods"}],
         "side": "Server"
@@ -30,8 +28,7 @@
     {
         "op": "addmerge",
         "path": "/attributesByType/*-ipomoeabatatas",
-        "value": [
-            {
+        "value": {
                 "displaycaseable": true,
 			    "shelvable": true,
 			    "nutritionPropsWhenInMeal": { "satiety": 200, "foodcategory": "Vegetable" },
@@ -49,8 +46,7 @@
 				    "scale": 1.0 
 			    },
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-ipomoeabatatas", "partType": "Filling" }
-            }
-        ],
+            },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
         "dependsOn": [{ "modid": "expandedfoods"}],
         "side": "Server"
@@ -58,8 +54,7 @@
     {
         "op": "addmerge",
         "path": "/attributesByType/*-zeamays",
-        "value": [
-            {
+        "value": {
                 "displaycaseable": true,
 			    "shelvable": true,
 			    "nutritionPropsWhenInMeal": { "satiety": 240, "foodcategory": "Grain" },
@@ -76,8 +71,7 @@
 				    "translation": { "x": 0, "y": -0.125, "z": 0 },
 				    "scale": 1.0 
 			    }
-            }
-        ],
+            },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
         "dependsOn": [{ "modid": "expandedfoods"}],
         "side": "Server"
@@ -85,8 +79,7 @@
     {
         "op": "addmerge",
         "path": "/attributesByType/*-heartofpalm",
-        "value": [
-            {
+        "value": {
                 "displaycaseable": true,
 			    "shelvable": true,
 			    "nutritionPropsWhenInMeal": { "satiety": 250, "foodcategory": "Vegetable" },
@@ -104,8 +97,7 @@
 				    "scale": 1.0 
 			    },
                 "inPieProperties": { "texture": "game:block/liquid/milkportion", "partType": "Filling" }
-            }
-        ],
+            },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
         "dependsOn": [{ "modid": "expandedfoods"}],
         "side": "Server"
@@ -113,8 +105,7 @@
     {
         "op": "addmerge",
         "path": "/attributesByType/*-alliumsativum-pickled",
-        "value": [
-            {
+        "value": {
                 "displaycaseable": true,
 			    "shelvable": true,
 			    "nutritionPropsWhenInMeal": { "satiety": 80, "health": 1, "foodcategory": "Vegetable" },
@@ -132,8 +123,7 @@
 				    "scale": 1.0 
 			    },
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-alliumsativum", "partType": "Filling" }
-            }
-        ],
+            },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
         "dependsOn": [{ "modid": "expandedfoods"}],
         "side": "Server"
@@ -141,11 +131,10 @@
     {
         "op": "addmerge",
         "path": "/attributesByType/*-ipomoeabatatas-pickled",
-        "value": [
-            {
+        "value": {
                 "displaycaseable": true,
 			    "shelvable": true,
-			    "nutritionPropsWhenInMeal": { "satiety": 80, "foodcategory": "Vegetable" },
+			    "nutritionPropsWhenInMeal": { "satiety": 160, "foodcategory": "Vegetable" },
 			    "handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			    "bakingProperties": {
 				    "temp": 100,
@@ -160,8 +149,7 @@
 				    "scale": 1.0 
 			    },
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-ipomoeabatatas", "partType": "Filling" }
-            }
-        ],
+            },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
         "dependsOn": [{ "modid": "expandedfoods"}],
         "side": "Server"
