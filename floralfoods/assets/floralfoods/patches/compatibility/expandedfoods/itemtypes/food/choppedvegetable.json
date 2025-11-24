@@ -22,7 +22,7 @@
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-alliumsativum", "partType": "Filling" }
             },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -48,7 +48,7 @@
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-ipomoeabatatas", "partType": "Filling" }
             },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -73,7 +73,7 @@
 			    }
             },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -99,7 +99,7 @@
                 "inPieProperties": { "texture": "game:block/liquid/milkportion", "partType": "Filling" }
             },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -125,7 +125,7 @@
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-alliumsativum", "partType": "Filling" }
             },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -151,7 +151,7 @@
                 "inPieProperties": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-ipomoeabatatas", "partType": "Filling" }
             },
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
 	{
@@ -159,7 +159,7 @@
 		"frompath": "/attributesByType/*",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -167,7 +167,7 @@
 		"frompath": "/temp",
 		"path": "/attributesByType/*",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -175,7 +175,7 @@
         "path": "/variantgroups/0/states/-",
         "value": ["alliumsativum","alliumsativum-pickled","ipomoeabatatas-pickled","ipomoeabatatas","zeamays","heartofpalm"],
         "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -186,7 +186,7 @@
 			"*-zeamays": { "satiety": 60, "foodcategory": "Grain" }
 		},
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
     {
@@ -196,7 +196,7 @@
 
 		},
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-        "dependsOn": [{ "modid": "expandedfoods"}],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
     },
 	{
@@ -204,7 +204,7 @@
 		"frompath": "/nutritionPropsByType/*",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -212,7 +212,7 @@
 		"frompath": "/temp",
 		"path": "/nutritionPropsByType/*",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -222,7 +222,7 @@
             "*-zeamays": { "groundStack": { "type": "item", "code": "floralzonescosmopolitanregion:flour-zeamays" }}
         },
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -236,7 +236,7 @@
 			"transitionRatio": 0.55
 		}],
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -250,7 +250,7 @@
 			"transitionRatio": 0.55
 		}],
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -264,7 +264,7 @@
 			"transitionRatio": 0.55
 		}],
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -278,7 +278,7 @@
 			"transitionRatio": 0.55
 		}],
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -292,7 +292,7 @@
 			"transitionRatio": 0.5
 		}],
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -306,7 +306,7 @@
 			"transitionRatio": 0.5
 		}],
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
 	{
@@ -314,7 +314,7 @@
 		"frompath": "/transitionablePropsByType/*",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -322,7 +322,7 @@
 		"frompath": "/temp",
 		"path": "/transitionablePropsByType/*",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "expandedfoods" }],
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     }
 ]

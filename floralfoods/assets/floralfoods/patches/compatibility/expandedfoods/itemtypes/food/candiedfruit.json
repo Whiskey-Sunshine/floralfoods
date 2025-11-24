@@ -1,0 +1,24 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["caricapapaya","cocosnucifera","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"],
+        "file": "expandedfoods:itemtypes/food/candiedfruit.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    },
+    {
+    "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-caricapapaya",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    }
+]
