@@ -1,0 +1,37 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["caricapapaya", "cucurbitaficifolia", "empetrumnigrum", "juniperuscommunis", "rubuschamaemorus", "alliumsativum", "ipomoeabatatas", "vanillaplanifolia", "cocosnucifera"],
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "@*-(alliumsativum|ipomoeabatatas)": { "saturation": 200, "health": 3, "foodcategory": "Vegetable" },
+            "@*-(caricapapaya|cucurbitaficifolia|empetrumnigrum|juniperuscommunis|rubuschamaemorus|cocosnucifera)": { "saturation": 200, "health": 3, "foodcategory": "Fruit" },
+            "*-vanillaplanifolia": { "saturation": 200, "health": 4, "foodcategory": "Fruit" }
+        },
+        "file": "expandedfoods:itemtypes/food/gelatin.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+        "side": "Server"
+    },
+
+	{
+        "op": "move",
+		"frompath": "/nutritionPropsByType/*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/gelatin.json",
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*",
+		"file": "expandedfoods:itemtypes/food/gelatin.json",
+		"side": "Server"
+    }
+]

@@ -159,7 +159,6 @@
 		"frompath": "/attributesByType/*",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -167,7 +166,6 @@
 		"frompath": "/temp",
 		"path": "/attributesByType/*",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {

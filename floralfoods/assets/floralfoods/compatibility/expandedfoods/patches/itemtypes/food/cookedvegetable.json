@@ -240,22 +240,6 @@
     },
 	{
         "op": "move",
-		"frompath": "/transitionablePropsByType/*-partbaked",
-		"path": "/temp",
-		"file": "expandedfoods:itemtypes/food/cookedvegetable.json",
-		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
-		"side": "Server"
-    },
-    {
-        "op": "move",
-		"frompath": "/temp",
-		"path": "/transitionablePropsByType/*-partbaked",
-		"file": "expandedfoods:itemtypes/food/cookedvegetable.json",
-		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
-		"side": "Server"
-    },
-	{
-        "op": "move",
 		"frompath": "/transitionablePropsByType/*-perfect",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/cookedvegetable.json",

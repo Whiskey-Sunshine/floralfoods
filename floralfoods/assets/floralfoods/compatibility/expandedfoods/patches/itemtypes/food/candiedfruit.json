@@ -1,0 +1,119 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["caricapapaya","cocosnucifera","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"],
+        "file": "expandedfoods:itemtypes/food/candiedfruit.json",
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/food/candiedfruit.json",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "@*-(caricapapaya|cucurbitaficifolia": { "satiety": 220, "health": 1, "foodcategory": "Fruit" },
+            "@*-(empetrumnigrum|juniperuscommunis|rubuschamaemorus)": { "satiety": 180, "health": 1, "foodcategory": "Fruit" },
+            "*-cocosnucifera": { "satiety": 200, "health": 2, "foodcategory": "Fruit" }
+        }
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-caricapapaya",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-cocosnucifero",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 9720 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-cucurbitaficifolia",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 77760 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-empetrumnigrum",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 19440 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-juniperuscommunis",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 38880 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/transitionablePropsByType/@*-rubuschamaemorus",
+        "value": [{
+			"type": "Perish",
+			"freshHours": { "avg": 810 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion" }],
+		"side": "Server"
+    },
+    
+    {
+        "op": "move",
+		"frompath": "/transitionablePropsByType/*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/transitionablePropsByType/*",
+		"file": "expandedfoods:itemtypes/food/candiedfruit.json",
+		"side": "Server"
+    }
+]

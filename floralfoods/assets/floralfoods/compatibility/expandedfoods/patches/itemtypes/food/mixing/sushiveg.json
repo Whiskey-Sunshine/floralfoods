@@ -1,0 +1,337 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"saturation": 125, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"saturation": 125, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"saturation": 125, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"saturation": 210, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"saturation": 155, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-zeamays",
+        "value": {"saturation": 95, "foodcategory": "grain"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"saturation": 125, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"saturation": 155, "foodcategory": "Vegetable"},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsnip"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsnip"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobster"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobster"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomwhite"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/expandedfoods:choppedvegetable-zeamays",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomyellow"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbage"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-nooil/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbage"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsnipsauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsnipsauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobstersauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobstersauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomwhitesauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/expandedfoods:choppedvegetable-zeamays",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomyellowsauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbagesauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-oil/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbagesauce"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsniphoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsniphoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobsterhoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobsterhoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomwhitehoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/expandedfoods:choppedvegetable-zeamays",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomyellowhoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbagehoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-honey/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbagehoney"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsnippeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushiparsnippeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobsterpeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomlobsterpeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomwhitepeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/expandedfoods:choppedvegetable-zeamays",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushimushroomyellowpeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbagepeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-veggie-peanut/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"shape": "expandedfoods:shapes/item/food/sushi/sushi.json", "textureMap": {"sushifilling": "sushicabbagepeanut"}},
+        "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+
+    {
+        "op": "move",
+		"frompath": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/attributes/expandedNutritionProps/expandedfoods:choppedvegetable-*",
+		"file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
+		"side": "Server"
+    }
+]

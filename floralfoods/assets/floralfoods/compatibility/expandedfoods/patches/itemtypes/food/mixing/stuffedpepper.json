@@ -1,0 +1,159 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "parsnip" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "parsnip" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomlobster" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomlobster" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomwhite" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-zeamays",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomyellow" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "cabbage" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-raw/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "cabbage" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-alliumsativum-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "parsnip" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-alliumsativum",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "parsnip" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-ipomoeabatatas-pickled",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomlobster" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-ipomoeabatatas",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomlobster" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-heartofpalm",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomwhite" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-zeamays",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "fill-mushroomyellow" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/floralzonescosmopolitanregion:vegetable-chamaenerionangustifolium",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "cabbage" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*/floralzonescosmopolitanregion:vegetable-ulvalactuca",
+        "value": {"shape": "expandedfoods:shapes/item/food/stuffedbellpepper/vegetable.json", "textureMap": { "vegetable": "cabbage" }},
+        "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+		"side": "Server"
+    },
+
+    {
+        "op": "move",
+		"frompath": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/attributes/renderIngredientsByType/*-raw/expandedfoods:choppedvegetable-*",
+		"file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-*",
+		"path": "/temp",
+		"file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/attributes/renderIngredientsByType/*/expandedfoods:choppedvegetable-*",
+		"file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+		"side": "Server"
+    }
+]
