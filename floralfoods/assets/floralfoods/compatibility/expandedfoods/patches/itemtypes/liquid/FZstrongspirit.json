@@ -1,0 +1,68 @@
+[
+    {
+        "op": "addeach",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["ipomoeabatatas","zeamays","caricapapaya","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"],
+        "side": "Server",
+        "dependsOn": [{"modid":"floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "path": "/attributes/waterTightContainerProps/texturebytype",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": { "base": "game:block/food/dairy/milk", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-empetrumnigrum": { "base": "game:block/food/pie/fill-plum", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-juniperuscommunis": { "base": "game:block/food/pie/fill-pineapple", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-rubuschamaemorus": { "base": "game:block/food/pie/fill-orange", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-caricapapaya": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-cucurbitaficifolia": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "path": "/texturebytype",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": { "base": "game:block/food/dairy/milk", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-empetrumnigrum": { "base": "game:block/food/pie/fill-plum", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-juniperuscommunis": { "base": "game:block/food/pie/fill-pineapple", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-rubuschamaemorus": { "base": "game:block/food/pie/fill-orange", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-caricapapaya": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
+			"*-cucurbitaficifolia": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "frompath": "/attributes/waterTightContainerProps/texturebytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "frompath": "/temp",
+        "path": "/attributes/waterTightContainerProps/texturebytype/*",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "frompath": "/texturebytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongspiritportion.json",
+        "frompath": "/temp",
+        "path": "/texturebytype/*",
+        "side": "Server"
+    }
+]

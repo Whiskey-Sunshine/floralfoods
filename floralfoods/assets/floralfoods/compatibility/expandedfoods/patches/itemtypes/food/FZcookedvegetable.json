@@ -2,7 +2,7 @@
     {
         "op": "addeach",
         "path": "/variantgroups/0/states/-",
-        "value": ["alliumsativum","alliumsativum-pickled","ipomoeabatatas-pickled","ipomoeabatatas","zeamays","heartofpalm"],
+        "value": ["alliumsativum","alliumsativum-pickled","ipomoeabatatas-pickled","ipomoeabatatas","zeamays","heartofpalm","phaseolusvulgarisimmature","phaseolusvulgarisimmature-pickled"],
         "file": "expandedfoods:itemtypes/food/cookedvegetable.json",
         "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
         "side": "Server"
@@ -11,12 +11,15 @@
         "op": "addmerge",
         "path": "/nutritionPropsByType",
         "value": {
-            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)-partbaked": { "saturation": 90, "foodcategory": "Vegetable" },
-            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)-perfect": { "saturation": 120, "foodcategory": "Vegetable" },
-            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled)-charred": { "saturation": 100, "foodcategory": "Vegetable" },
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled|phaseolusvulgarisimmature|phaseolusvulgarisimmature-pickled)-partbaked": { "saturation": 90, "foodcategory": "Vegetable" },
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled|phaseolusvulgarisimmature|phaseolusvulgarisimmature-pickled)-perfect": { "saturation": 120, "foodcategory": "Vegetable" },
+            "@*-(alliumsativum|alliumsativum-pickled|ipomoeabatatas-pickled|phaseolusvulgarisimmature|phaseolusvulgarisimmature-pickled)-charred": { "saturation": 100, "foodcategory": "Vegetable" },
    			"*-zeamays-partbaked": { "saturation": 65, "foodcategory": "Grain" },
             "*-zeamays-perfect": { "saturation": 80, "foodcategory": "Grain" },
-            "*-zeamays-charred": { "saturation": 70, "foodcategory": "Grain" }
+            "*-zeamays-charred": { "saturation": 70, "foodcategory": "Grain" },
+			"*-ipomoeabatatas-partbaked": { "saturation": 225, "foodcategory": "Vegetable" },
+			"*-ipomoeabatatas-perfect": { "saturation": 300, "foodcategory": "Vegetable" },
+			"*-ipomoeabatatas-charred": { "saturation": 250, "foodcategory": "Vegetable" }
 		},
 		"file": "expandedfoods:itemtypes/food/cookedvegetable.json",
         "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],

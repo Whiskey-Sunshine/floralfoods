@@ -1,0 +1,67 @@
+[
+  {
+    "op": "addeach",
+    "file": "game:itemtypes/resource/pressedmash.json",
+    "path": "/variantgroups/0/states/-",
+    "value": ["alliumsativum", "ipomoeabatatas"],
+    "side": "server",
+    "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}]
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/resource/pressedmash.json",  
+    "path": "/attributes/juiceablePropertiesByType/@*-(alliumsativum|ipomoeabatatas)",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:vegetablejuiceportion-{fruit}",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}]
+  },
+  {
+    "op": "addmerge",
+    "file": "floralzonescosmopolitanregion:itemtypes/food/vegetable.json",
+    "path": "/attributesByType/*-alliumsativum/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-alliumsativum", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-alliumsativum", "stacksize": 1 }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "floralzonescosmopolitanregion" }]
+  },
+  {
+    "op": "addmerge",
+    "file": "floralzonescosmopolitanregion:itemtypes/food/vegetable.json",
+    "path": "/attributesByType/*-ipomoeabatatas/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-cabbage", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-ipomoeabatatas", "stacksize": 1 }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "floralzonescosmopolitanregion" }]
+  },
+  {
+    "op": "move",
+    "file": "game:itemtypes/resource/pressedmash.json",
+    "path": "/temp",
+    "frompath": "/attributes/juiceablePropertiesByType/*",
+    "side": "server"
+  },
+  {
+    "op": "move",
+    "file": "game:itemtypes/resource/pressedmash.json",
+    "path": "/attributes/juiceablePropertiesByType/*",
+    "frompath": "/temp",
+    "side": "server"
+  }
+]

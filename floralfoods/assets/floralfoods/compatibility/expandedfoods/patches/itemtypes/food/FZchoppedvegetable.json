@@ -312,7 +312,6 @@
 		"frompath": "/transitionablePropsByType/*",
 		"path": "/temp",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     },
     {
@@ -320,7 +319,6 @@
 		"frompath": "/temp",
 		"path": "/transitionablePropsByType/*",
 		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
-		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
 		"side": "Server"
     }
 ]

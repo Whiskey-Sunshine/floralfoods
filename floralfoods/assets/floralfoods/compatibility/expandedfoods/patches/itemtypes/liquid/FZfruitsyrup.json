@@ -11,7 +11,7 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "*": {"base": "game:block/food/pie/{fill-{type}"}
+            "*": {"base": "game:block/food/pie/fill-{type}"}
         },
         "file": "expandedfoods:itemtypes/liquid/fruitsyrup.json",
         "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],

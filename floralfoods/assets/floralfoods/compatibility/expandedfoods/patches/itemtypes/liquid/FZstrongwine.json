@@ -1,0 +1,169 @@
+[
+    {
+        "op": "addeach",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["ipomoeabatatas","zeamays","caricapapaya","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"],
+        "side": "Server",
+        "dependsOn": [{"modid":"floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "path": "/attributes/waterTightContainerProps/texturebytype",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": { "base": "game:block/food/dairy/milk", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-empetrumnigrum": { "base": "game:block/food/pie/fill-plum", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-juniperuscommunis": { "base": "game:block/food/pie/fill-pineapple", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-rubuschamaemorus": { "base": "game:block/food/pie/fill-orange", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-caricapapaya": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-cucurbitaficifolia": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "path": "/texturebytype",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": { "base": "game:block/food/dairy/milk", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-empetrumnigrum": { "base": "game:block/food/pie/fill-plum", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-juniperuscommunis": { "base": "game:block/food/pie/fill-pineapple", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-rubuschamaemorus": { "base": "game:block/food/pie/fill-orange", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-caricapapaya": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
+			"*-cucurbitaficifolia": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "path": "/attributes/distillationPropsbytype",
+        "value": {
+            "strongwineportion-ipomoeabatatas": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-ipomoeabatatas" }, 
+			"ratio": 0.1 
+			},
+			"strongwineportion-zeamays": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-zeamays" }, 
+			"ratio": 0.1 
+			},
+			"strongwineportion-caricapapaya": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-{fruit}" },
+			"ratio": 0.2
+			},
+            "strongwineportion-cucurbitaficifolia": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-{fruit}" },
+			"ratio": 0.2
+			},
+            "strongwineportion-empetrumnigrum": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-{fruit}" },
+			"ratio": 0.2
+			},
+            "strongwineportion-juniperuscommunis": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-{fruit}" },
+			"ratio": 0.2
+			},
+            "strongwineportion-rubuschamaemorus": {
+			"distilledStack": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-{fruit}" },
+			"ratio": 0.2
+			}
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/foodcategoryByType",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": "Grain"
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": {"saturation": 1, "health": 0.01, "foodcategory": "Grain"}
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    
+
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/attributes/waterTightContainerProps/texturebytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/temp",
+        "path": "/attributes/waterTightContainerProps/texturebytype/*",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/texturebytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/temp",
+        "path": "/texturebytype/*",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/foodcategoryByType/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/temp",
+        "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/foodcategoryByType/*",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/attributes/distillationPropsbytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/temp",
+        "path": "/attributes/distillationPropsbytype/*",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/nutritionPropsByType/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/strongwine.json",
+        "frompath": "/temp",
+        "path": "/nutritionPropsByType/*",
+        "side": "Server"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "op": "addeach",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["caricapapaya","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"],
+        "dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+    },
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+		"path": "/attributes/nutritionPropsWhenInMeal/satietyByType",
+		"value": {
+			"*-caricapapaya": 150,
+			"*-cucurbitaficifolia": 20,
+			"@*-(empetrumnigrum|juniperuscommunis|rubuschamaemorus)": 90
+		},
+		"dependsOn": [{ "modid": "floralzonescosmopolitanregion"}],
+        "side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+		"path": "/attributes/inPiePropertiesByType",
+		"value": {
+			"*-caricapapaya": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "partType": "Filling" },
+			"*-cucurbitaficifolia": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "partType": "Filling" },
+			"*-empetrumnigrum": { "texture": "game:block/food/pie/fill-plum", "partType": "Filling" },
+			"*-juniperuscommunis": { "texture": "game:block/food/pie/fill-pineapple", "partType": "Filling" },
+			"*-rubuschamaemorus": { "texture": "game:block/food/pie/fill-orange", "partType": "Filling" }
+		}
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+		"path": "/attributes/inContainerTextureByType",
+		"value": {
+			"*-caricapapaya": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "partType": "Filling" },
+			"*-cucurbitaficifolia": { "texture": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "partType": "Filling" },
+			"*-empetrumnigrum": { "texture": "game:block/food/pie/fill-plum", "partType": "Filling" },
+			"*-juniperuscommunis": { "texture": "game:block/food/pie/fill-pineapple", "partType": "Filling" },
+			"*-rubuschamaemorus": { "texture": "game:block/food/pie/fill-orange", "partType": "Filling" }
+		}
+	},
+
+	{
+        "op": "move",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "frompath": "/nutritionPropsByType/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "frompath": "/temp",
+        "path": "/nutritionPropsByType/*",
+        "side": "Server"
+    },
+	{
+        "op": "move",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "frompath": "/attributes/inContainerTextureByType/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "frompath": "/temp",
+        "path": "/attributes/inContainerTextureByType/*",
+        "side": "Server"
+    },
+	{
+        "op": "move",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "frompath": "/attributes/nutritionPropsWhenInMeal/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+        "frompath": "/temp",
+        "path": "/attributes/nutritionPropsWhenInMeal/*",
+        "side": "Server"
+    }
+]

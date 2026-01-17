@@ -1,0 +1,41 @@
+[
+    {
+        "op": "addmerge",
+        "file": "floralzonescosmopolitanregion:itemtypes/liquid/spirit.json",
+        "path": "/transitionableProps",
+        "value": [
+            {
+                "type": "Cure",
+                "freshHours": { "avg": 6720 },
+                "transitionHours": { "avg": 2016 },
+                "transitionedStack": { "type": "item", "code": "expandedfoods:strongspiritportion-{fruit}" },
+                "transitionRatio": 1
+            }
+        ],
+        "side": "server",
+        "dependsOn": [{"modid":"floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "floralzonescosmopolitanregion:itemtypes/liquid/spirit.json",
+        "path": "/attributes/nutritionPropsWhenInMeal",
+        "value": {
+            "saturation": 15,
+            "foodcategoryByType": {
+                "*-ipomoeabatatas": "grain", 
+                "*-zeamays": "grain",             
+                "*": "fruit"
+            }
+        },
+        "side": "server",
+        "dependsOn": [{"modid":"floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "floralzonescosmopolitanregion:itemtypes/liquid/spirit.json",
+        "path": "/attributes/handbook/extraSections",
+        "value": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }],
+        "side": "server",
+        "dependsOn": [{"modid":"floralzonescosmopolitanregion"}]
+    }
+]

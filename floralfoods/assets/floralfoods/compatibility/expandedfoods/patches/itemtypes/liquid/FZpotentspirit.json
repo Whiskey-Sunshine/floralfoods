@@ -1,0 +1,68 @@
+[
+    {
+        "op": "addeach",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["ipomoeabatatas","zeamays","caricapapaya","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"],
+        "side": "Server",
+        "dependsOn": [{"modid":"floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "path": "/attributes/waterTightContainerProps/texturebytype",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": { "base": "game:block/food/dairy/milk", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-empetrumnigrum": { "base": "game:block/food/pie/fill-plum", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-juniperuscommunis": { "base": "game:block/food/pie/fill-pineapple", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-rubuschamaemorus": { "base": "game:block/food/pie/fill-orange", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-caricapapaya": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-cucurbitaficifolia": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "addmerge",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "path": "/texturebytype",
+        "value": {
+            "@*-(ipomoeabatatas|zeamays)": { "base": "game:block/food/dairy/milk", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-empetrumnigrum": { "base": "game:block/food/pie/fill-plum", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-juniperuscommunis": { "base": "game:block/food/pie/fill-pineapple", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-rubuschamaemorus": { "base": "game:block/food/pie/fill-orange", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-caricapapaya": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-caricapapaya", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+			"*-cucurbitaficifolia": { "base": "floralzonescosmopolitanregion:block/food/pie/fill-cucurbitaficifolia", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+        },
+        "side": "Server",
+        "dependsOn": [{"modid": "floralzonescosmopolitanregion"}]
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "frompath": "/attributes/waterTightContainerProps/texturebytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "frompath": "/temp",
+        "path": "/attributes/waterTightContainerProps/texturebytype/*",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "frompath": "/texturebytype/*",
+        "path": "/temp",
+        "side": "Server"
+    },
+    {
+        "op": "move",
+        "file": "expandedfoods:itemtypes/liquid/potentspiritportion.json",
+        "frompath": "/temp",
+        "path": "/texturebytype/*",
+        "side": "Server"
+    }
+]
